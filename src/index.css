@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: black;
+    color: white;
+    overflow: auto;
+}
+
+.videos{
+    width: 100%;
+    display: grid;
+    gap: 50px;
+    overflow: auto;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    padding: 20px;
+}
+/*
+.videos::-webkit-scrollbar{
+    background: transparent;
+    width: 8px;
+    border-radius: 5px;
+}
+.videos::webkit-scrollbar-thumb{
+
+} */
