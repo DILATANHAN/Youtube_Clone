@@ -2,13 +2,13 @@ import millify from "millify";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-const VideoCard = ({ video,isRow }) => {
+const VideoCard = ({ video, isRow }) => {
   const [isHover, setIsHover] = useState(false);
   const navigate = useNavigate();
 
   return (
     <div
-      className={`${isRow ? "row" : ""} cursor-pointer`}
+      className={`${isRow ? "row" : ""}  cursor-pointer`}
       onMouseEnter={() => setIsHover(true)}
       onMouseLeave={() => setIsHover(false)}
       onClick={() => navigate(`/watch?v=${video.videoId}`)}

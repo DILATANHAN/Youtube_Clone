@@ -1,4 +1,5 @@
 import { createContext, useEffect, useState } from "react";
+import { useSearchParams } from "react-router-dom";
 import api from "../utils/api";
 import { categories } from "../constants";
 
