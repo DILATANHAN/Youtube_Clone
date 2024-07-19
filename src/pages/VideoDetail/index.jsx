@@ -5,7 +5,7 @@ import ReactPlayer from "react-player";
 import ChannelInfo from "./ChannelInfo";
 import VideoInfo from "./VideoInfo";
 import Comments from "./Comments";
-import VideoCard from "../../composnents/VideoCard";
+import VideoCard from "../../components/VideoCard";
 
 const VideoDetail = () => {
   const [video, setVideo] = useState(null);

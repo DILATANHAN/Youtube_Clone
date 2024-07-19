@@ -1,6 +1,5 @@
 import millify from "millify";
 import { useState } from "react";
-import { i } from "vite/dist/node/types.d-aGj9QkWt";
 
 const VideoInfo = ({ video }) => {
   const [expand, setExpand] = useState(false);
